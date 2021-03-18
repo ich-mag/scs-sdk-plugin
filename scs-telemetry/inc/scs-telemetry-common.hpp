@@ -45,7 +45,7 @@ enum gameplayType { cancelled, delivered, fined, tollgate, ferry, train };
 void log_line(scs_log_type_t type, const char* text, ...);
 void log_line(const char* text, ...);
 
-typedef struct scsTrailer_s { // Size: 1528
+typedef struct scsTrailer_s { // Size: 1552
 	//----- START OF FIRST ZONE AT OFFSET 0 -----//
 	struct {
 		bool wheelSteerable[16];
@@ -131,7 +131,7 @@ typedef struct scsTrailer_s { // Size: 1528
 		char licensePlateCountry[stringsize];
 		char licensePlateCountryId[stringsize];
 	}con_s;
-	//----- END OF 6TH ZONE AT OFFSET 1527 -----//
+	//----- END OF 6TH ZONE AT OFFSET 1551 -----//
 }scsTrailer_t;
 
 /**
@@ -541,7 +541,7 @@ typedef struct scsTelemetryMap_s
 		scsTrailer_t trailer[10];
 	}trailer;
 
-	//----- END OF 14TH ZONE AT OFFSET 22420 -----//
+	//----- END OF 14TH ZONE AT OFFSET 21519 -----//
 } scsTelemetryMap_t;
 
 #endif
