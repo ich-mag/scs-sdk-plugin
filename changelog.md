@@ -1,5 +1,16 @@
 # Changelog
 
+## Rev 11 Update 1 (Some breaking changes for Trailer, but 12 is reserved)
+
+### Important Changes
+
+- added trailer wearBody, see changes on the telemetry. It is placed after the other wear-values in the trailer
+  
+### New Values
+
+- Trailer wear body
+- multiplayer time offset
+
 ## Rev 11 (coming early due to some changes)
 
 ### Important Changes
